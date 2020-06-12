@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock-paper-scissor</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <section class="game">
+
+
+        <div class="context">
+
         <div class="score">
             <div class="player-score">
                 <h2>Player</h2>
@@ -27,9 +33,12 @@
         <div class="match fadeOut">
             <h2 class="winner">Choose An Option</h2>
             <div class="hands">
+                <div>
                 <img class="player-hand" src="/assets/rock.png" alt="">
+                <p class="u">You</p></div>
+                <div>
                 <img class="computer-hand" src="/assets/rock.png" alt="">
-
+                <p class="u">Computer</p></div>
             </div>
             <div class="options">
                 <button class="rock">rock</button>
@@ -37,6 +46,23 @@
                 <button class="scissors">scissors</button>
             </div>
         </div>
+    </div>
+    
+        <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+
+    </div >
     </section>
     <script src="app.js"></script>
 </body>
