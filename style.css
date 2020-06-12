@@ -34,8 +34,7 @@ section{
     
     justify-content: space-around;
     align-items: center;
-    opacity: 0;
-   
+    transition: opacity 0.5s ease;
 }
 
 .intro h1{
@@ -55,9 +54,11 @@ section{
 
 .match{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition: opacity 0.5s ease 0.5s;
+
 }
 
 .winner{
